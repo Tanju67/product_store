@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Log dosyaları
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / dağıtım klasörleri
+dist/
+build/
+
+# Environment dosyaları (gizli bilgileri içerir)
+.env
+
+# OS veya IDE dosyaları
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Npm package lock
+package-lock.json
+yarn.lock
+
+# Temporary / cache
+*.tmp
+*.swp
